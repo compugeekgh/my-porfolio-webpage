@@ -25,6 +25,8 @@
   #profile,
   .section-container {
     display: block;
+    position: relative;
+    z-index: ;
   }
 
   .arrow {
