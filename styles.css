@@ -313,6 +313,11 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.details-container:hover {
+  transform: scale(1.05);
 }
 
 .details-container p {
