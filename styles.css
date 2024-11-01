@@ -178,6 +178,18 @@ section {
   margin: auto 0;
 }
 
+.profile-pic {
+  width: 25rem;
+  height: auto;
+  border: 2px solid rgb(53, 53, 53);
+  border-radius: 500px;
+  mix-blend-mode: luminosity;
+}
+
+.profile-pic:hover {
+  mix-blend-mode: normal;
+}
+
 .section__text {
   align-items: center;
   text-align: center;
@@ -289,7 +301,7 @@ section {
 
 .arrow {
   position: absolute;
-  right: -5rem;
+  right: 5rem;
   bottom: 2.5rem;
 }
 
